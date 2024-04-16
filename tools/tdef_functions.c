@@ -171,7 +171,7 @@ table_func_t s_tdef_funcs[] = {
 };
 
 table_func_t *
-getTdefFunctionsByNumber(nTable)
+getTdefFunctionsByNumber(int nTable)
 {
    if (nTable >= S_BRAND)
       return(&s_tdef_funcs[nTable - S_BRAND]);
