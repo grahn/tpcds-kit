@@ -147,7 +147,7 @@ getTdefsByNumber(int nTable)
 }
 */
 tdef *
-getSimpleTdefsByNumber(nTable)
+getSimpleTdefsByNumber(int nTable)
 {
    if (nTable >= S_BRAND)
       return(&s_tdefs[nTable - S_BRAND]);
